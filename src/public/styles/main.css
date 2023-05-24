@@ -1,0 +1,102 @@
+/* ======== Header ==================== */
+
+.header {
+    display: flex;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.header h2 {
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+.header h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.header .navigation {
+    display: flex;
+    margin-right: 50px;
+}
+
+.header .navigation .nav-list {
+    display: flex;
+}
+
+.header .navigation .nav-list .nav-item {
+    margin: 8px 10px 0px 10px;
+}
+
+.header .navigation .nav-list .nav-item a {
+    text-decoration: none;
+    color: blue;
+}
+
+.header .navigation .nav-list .nav-item a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.header .navigation button {
+    all: unset;
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+.header .navigation button:hover {
+    cursor: pointer;
+}
+
+/* ============= Home page ================ */
+
+.home-img {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+.home-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home-img .title {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: #fff;
+    font-size: 36px;
+}
+
+.home-img .author {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    color: gray;
+}
+
+/* ========== Footer ======================= */
+
+.footer {
+    display: flex;
+    padding: 6px 0px;
+}
+
+.footer h4 {
+    margin: 0 auto;
+}
+
+.footer span {
+    margin-right: 20px;
+}
