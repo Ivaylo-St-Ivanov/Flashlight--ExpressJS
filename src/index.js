@@ -3,6 +3,8 @@ const express = require('express');
 const expressConfig = require('./config/expressConfig');
 const handlebarsConfig = require('./config/handlebarsConfig');
 
+const homeController = require('./controllers/homeController');
+
 const PORT = 5000;
 
 const app = express();
@@ -10,8 +12,6 @@ const app = express();
 expressConfig(app);
 handlebarsConfig(app);
 
-app.get('/', (req, res) => {
-    res.send('Tuk');
-});
+app.use(homeController);
 
 app.listen(PORT, () => console.log(`This server is running on port ${PORT}...`));
