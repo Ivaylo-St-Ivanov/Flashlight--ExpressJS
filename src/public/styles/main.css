@@ -100,3 +100,17 @@
 .footer span {
     margin-right: 20px;
 }
+
+/* ============ Page 404 ================== */
+
+.page-404 {
+    text-align: center;
+    height: 80vh;
+    padding: 100px;
+}
+
+.page-404 .sad-face {
+    margin: auto;
+    height: 30vh;
+    margin-bottom: 30px;
+}
